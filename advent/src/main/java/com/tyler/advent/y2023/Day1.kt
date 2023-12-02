@@ -1,5 +1,6 @@
 package com.tyler.advent.y2023
 
+import com.tyler.advent.addEmUp
 import java.io.File
 
 object Day1 {
@@ -10,8 +11,8 @@ object Day1 {
             val firstNum = line.first { it.isDigit() }
             val lastNum = line.last { it.isDigit() }
             "$firstNum$lastNum".toInt()
-        }.reduce { acc, i -> acc + i }
-        return answer
+        }.addEmUp()
+        return answer // 56397
     }
 
     fun problem2():Int {
@@ -31,7 +32,7 @@ object Day1 {
                 .first
 
             "$firstNum$lastNum".toInt()
-        }.reduce { acc, i -> acc + i }
-        return answer
+        }.addEmUp()
+        return answer // 55701
     }
 }

@@ -1,8 +1,8 @@
 package com.tyler.advent
 
-import com.tyler.advent.y2023.Day2
+import com.tyler.advent.y2023.Day3
 
 fun main() {
-    println(Day2.problem1())
-    println(Day2.problem2())
+    println(Day3.problem1())
+    println(Day3.problem2())
 }

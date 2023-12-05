@@ -139,6 +139,6 @@ object Day3 {
             println()
         }
 
-        return gearRatios.addEmUp()
+        return gearRatios.addEmUp() // 75220503
     }
 }
